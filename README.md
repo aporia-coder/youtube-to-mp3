@@ -23,3 +23,10 @@ You are now ready to run the application
 python app.py
 ```
 this should run the project and you can begin using the application
+
+To compile the project into a single.exe file you can run
+
+```
+pyinstall -F app.py
+```
+This will compile the application into a single .exe file inside the dist folder, you can run this without doing any of the previous set up
